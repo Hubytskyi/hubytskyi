@@ -1,0 +1,26 @@
+section#portfolio
+		background-image: url(../img/portfolio-bg6-min.jpg)
+		background-size: cover
+		background-position: center bottom
+
+
+.col-1 img
+	max-width: 300px
+	transition: all 0.2s ease-in-out
+	&:hover
+		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4)
+
+
+.description
+	display: flex
+	align-items: center
+	h3
+		letter-spacing: 1px
+
+@media (max-width: 640px)
+	.col-1
+		text-align: center
+
+	.description
+		padding-top: 50px
+		justify-content: center
