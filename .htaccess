@@ -10,9 +10,9 @@
 </IfModule>
 
 RewriteCond %{HTTP_HOST} ^hubytskyi.com
-RewriteRule (.*)$ http://www.hubytskyi.com/$1 [R=301,L]
+RewriteRule (.*)$ https://www.hubytskyi.com/$1 [R=301,L]
 
-ErrorDocument 404 http://www.hubytskyi.com/404.html
+ErrorDocument 404 https://www.hubytskyi.com/404.html
 
 ExpiresActive On
 ExpiresDefault "access plus 5 seconds"
