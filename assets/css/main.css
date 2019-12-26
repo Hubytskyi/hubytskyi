@@ -500,6 +500,20 @@ body {
   height: 100vh;
   margin: 0; }
 
+@font-face {
+  font-family: 'Calingham';
+  src: url("../fonts/Calingham/Calingham.eot");
+  src: url("../fonts/Calingham/Calingham.eot?#iefix") format("embedded-opentype"), url("../fonts/Calingham/Calingham.woff2") format("woff2"), url("../fonts/Calingham/Calingham.woff") format("woff"), url("../fonts/Calingham/Calingham.ttf") format("truetype"), url("../fonts/Calingham/Calingham.svg#Calingham") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Onthel';
+  src: url("../fonts/Onthel/Onthel.eot");
+  src: url("../fonts/Onthel/Onthel.eot") format("embedded-opentype"), url("../fonts/Onthel/Onthel.woff2") format("woff2"), url("../fonts/Onthel/Onthel.woff") format("woff"), url("../fonts/Onthel/Onthel.ttf") format("truetype"), url("../fonts/Onthel/Onthel.svg#Onthel") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 .home-cta {
   font-size: 20px;
   display: block;
@@ -626,8 +640,10 @@ section#about {
   background-image: url(../img/about-bg13.jpg);
   background-position: center bottom;
   background-size: cover;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Onthel';
   color: #D7CEC7; }
+  section#about p {
+    font-size: 32px; }
   section#about h2 {
     color: #D7CEC7;
     font-size: 60px;
