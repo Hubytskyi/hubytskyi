@@ -643,7 +643,8 @@ section#about {
   font-family: 'Onthel';
   color: #D7CEC7; }
   section#about p {
-    font-size: 34px; }
+    font-size: 34px;
+    letter-spacing: 2px; }
   section#about h2 {
     color: #D7CEC7;
     font-size: 80px;
@@ -725,6 +726,13 @@ section.lets-work-together {
     margin-top: 20px; }
   section.lets-work-together p.home-lead-second {
     line-height: 1.5; }
+  section.lets-work-together p.home-lead-second.cv {
+    border-left: 1px dashed #0F1626;
+    padding-left: 10px; }
+    section.lets-work-together p.home-lead-second.cv a {
+      background: #0F1626;
+      color: #fff;
+      padding: 2px; }
   section.lets-work-together h2 {
     text-align: center; }
 
