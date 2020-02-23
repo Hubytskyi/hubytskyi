@@ -73,7 +73,11 @@ img::-moz-selection
   background: transparent
 
 body
-  -webkit-tap-highlight-color: #FFF498
+	padding: env(safe-area-inset-top)
+	padding: env(safe-area-inset-right)
+	padding: env(safe-area-inset-bottom)
+	padding: env(safe-area-inset-left)
+	-webkit-tap-highlight-color: #FFF498
 
 body
   background-color: #D7CEC7
