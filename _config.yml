@@ -4,4 +4,4 @@ url: "hubytskyi.github.io"
 markdown: kramdown
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
